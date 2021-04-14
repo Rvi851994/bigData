@@ -1,0 +1,3 @@
+{
+    "mongoURI": "mongodb+srv://jack1234:12345@cluster0.fbccp.mongodb.net/BigData?retryWrites=true&w=majority"
+}

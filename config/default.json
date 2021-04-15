@@ -1,3 +1,4 @@
 {
-    "mongoURI": "mongodb+srv://jack1234:12345@cluster0.fbccp.mongodb.net/BigData?retryWrites=true&w=majority"
+    "mongoURI": "mongodb+srv://jack1234:12345@cluster0.fbccp.mongodb.net/BigData?retryWrites=true&w=majority",
+    "SENDGRID_API_KEY": "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"
 }

@@ -8,12 +8,21 @@ const UserSchema = new mongoose.Schema({
   email: {
     type: String,
     require: true,
-    unique: true,
+  },
+  schedule: {
+    type: Date,
   },
   date: {
     type: Date,
     default: Date.now,
   },
+  batch_id: {
+    type: String
+  },
+  failed: {
+    type: Boolean,
+    default: false,
+  }
 });
 
 module.exports = User = mongoose.model('user', UserSchema);
